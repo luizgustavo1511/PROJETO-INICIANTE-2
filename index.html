@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta do Restaurante</title>
+  
+</head>
+<body>
+    <h1 >RESTAURANTE DA DONA FLORINDA</h1>
+    <div class="form-group">
+        <label for="exInput" class="form-label mt-4">Insira um valor para incluir na conta</label>
+        <input type="number" class="form-control" id="exInput" aria-describedby="emailHelp" placeholder="R$ 00,00" >
+        <button type="button" onclick="adicionarValor()" class="btn btn-outline-dark" >Incluir</button>
+      </div>
+      <h6 >Quantidade de Itens na Conta: <span id="conta">0</span></h6>
+      <button type="button" class="btn btn-outline-info" onclick="somaTotal()">Gerar Total</button>
+      <h5 >R$: <span id="soma">0</span></h5>
+      
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
